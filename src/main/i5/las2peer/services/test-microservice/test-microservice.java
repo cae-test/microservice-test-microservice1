@@ -120,7 +120,7 @@ $Log_Time_Difference$
     if(testResponse_condition) {
       JSONObject testResult = new JSONObject();
 
-      $Log_Response$
+      System.out.println("live-code-editing");
 
       return Response.status(HttpURLConnection.HTTP_OK).entity(testResult.toJSONString()).build();
     }
